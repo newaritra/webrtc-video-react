@@ -1,0 +1,15 @@
+video {
+  /* height: 60rem; */
+  margin-bottom: 10rem;
+  border-radius: 1.5%;
+  width: 100%;
+}
+.videoContainer {
+  display: grid;
+  grid-template-columns: repeat(2,1fr);
+  width: 100vw;
+}
+
+.videoContainer * {
+  flex: 1;
+}
